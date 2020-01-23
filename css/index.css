@@ -1,0 +1,54 @@
+body {
+  background-image: url("../original/03.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  font-family: Georgia;
+  color:DarkRed;
+}
+a:hover{
+  background-color: black;
+  color:Plum;
+}
+header{
+  padding:50px;
+  text-align:center;
+}
+.center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding:20px;
+}
+.container{
+    height: 100%;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+.ingretitle{
+  display: block;
+  margin-left: 50px;
+  margin-bottom: 20px;
+}
+.ingredients{
+  background:peachpuff;
+  width: 400px;
+
+  border: 4px dashed white;
+  padding: 20px;
+}
+li{
+  font-size: 20px;
+}
+li:hover{
+  background-color: black;
+  color: white;
+}
+.directions{
+  width:50%;
+  margin-left: auto;
+  margin-right: auto;
+  padding:20px;
+  line-height: 1.6;
+}
