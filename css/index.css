@@ -1,9 +1,10 @@
 body {
-  background-image: url("../original/03.jpg");
-  background-repeat: no-repeat;
-  background-size: 100%;
+  background-color: rgb(255,204,204);
   font-family: Georgia;
   color:DarkRed;
+  width: 960px;
+  margin: 0 auto;
+  padding: 50px;
 }
 a:hover{
   background-color: black;
@@ -13,28 +14,19 @@ header{
   padding:50px;
   text-align:center;
 }
-.center{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  padding:20px;
+.picture img{
+  width:500px;
 }
-.container{
-    height: 100%;
-    width: 60%;
-    margin-left: auto;
-    margin-right: auto;
-    display: flex;
+.picture p{
+  margin-left:150px;
 }
-.ingretitle{
-  display: block;
-  margin-left: 50px;
-  margin-bottom: 20px;
+.content{
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
 }
 .ingredients{
   background:peachpuff;
   width: 400px;
-
   border: 4px dashed white;
   padding: 20px;
 }
@@ -44,11 +36,4 @@ li{
 li:hover{
   background-color: black;
   color: white;
-}
-.directions{
-  width:50%;
-  margin-left: auto;
-  margin-right: auto;
-  padding:20px;
-  line-height: 1.6;
 }
